@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #10101a;
+    color: white;
+}
+
+header {
+    background-color: #181827;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/*menu*/
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav a:hover {
+    color: #b56cff;
+
+}
+
+.inicio {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #24243a;
+
+}
+.inicio h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+.inicio p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+
+}
+button {
+    background-color: #8a3ffc;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a86cff;
+}
+
+section {
+    padding: 60px 8%;
+}
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    background-color: #1c1c2b;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+.artistas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.artista {
+    background-color: #292942;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.artista img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.playlist {
+    background-color: #181827;
+
+}
+.playlist ol {
+    max-width: 600px;
+    margin: auto;
+    line-height: 2;
+
+}
+.series {
+    background-color: #24243a;
+
+}
+
+.contacto {
+    text-align: center;
+
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+form label {
+    text-align: left;
+    margin-top: 15px;
+}
+form input {
+    padding: 12px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+footer {
+    background-color: #181827;
+    text-align: center;
+    padding: 25px;
+
+}
